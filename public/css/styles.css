@@ -1,6 +1,65 @@
-.footer-info {
+html, body {
+  height: 100%
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bowlby One SC', cursive;
+}
+
+p {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  display: flex;
+  background-color: #fff2cc;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer-section {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: #006666;
+  color: white;
+  flex-shrink: 0;
+  margin-bottom: 0;
+
+}
+
+.footer-section > p {
+  margin: 1rem;
+
+}
+.header, .sub-header {
+  color: #353332;
+  text-align: center;
+}
+
+.nav-header {
+  /* background: url("/images/chilliwack_valley.jpg"); */
+  background-color: #006666;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.nav-header > h1 {
+  color: white;
+  opacity:0.8;
+  font-weight: 600;
+  padding: 2rem;
+  font-size: 4rem;
+}
+
+.cheam-image {
+  height: 50%;
 }
